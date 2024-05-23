@@ -12,6 +12,8 @@
 			response.addCookie(cookies[i]);
 		}
 		response.sendRedirect("cookie.jsp");
+		
 	%>
+
 </body>
 </html>
