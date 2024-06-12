@@ -11,8 +11,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-public class BubbleGameFrameEx extends JFrame{
-	public BubbleGameFrameEx() {
+public class BubbleGameFrameEx1 extends JFrame{
+	public BubbleGameFrameEx1() {
 		setTitle("버블 게임");
 //		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -29,7 +29,7 @@ public class BubbleGameFrameEx extends JFrame{
 	}
 	
 	public static void main(String [] args) {
-		new BubbleGameFrameEx();
+		new BubbleGameFrameEx1();
 	}
 }
 class GamePanel1 extends JPanel {
